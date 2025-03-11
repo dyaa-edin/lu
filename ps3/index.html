@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>playstation 3 </title>
+  <link rel="stylesheet" href="../style2.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <header>
+    <h1>playstation 3 </h1>
+  </header>
+  <main>
+    <div class="gallery">
+      <!-- سيتم توليد الصور هنا باستخدام JavaScript -->
+    </div>
+  </main>
+  <footer>
+  <p>Developed and designed by <a class="bx bx-tada"href="https://dyaa-edin.netlify.app/">@devo_63</a></p>
+</footer>
+  <script defer >
+    document.addEventListener("DOMContentLoaded", () => {
+  const gallery = document.querySelector(".gallery");
+
+  for (let i = 1; i <= 54; i++) {
+    const img = document.createElement("img");
+    img.src = `images/(${i}).jpg`; // تأكد من وضع الصور داخل مجلد "images"
+    img.alt = `لعبة ${i}`;
+    gallery.appendChild(img);
+  }
+});
+  </script>
+</body>
+</html>
