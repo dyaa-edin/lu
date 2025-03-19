@@ -22,12 +22,12 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  gap: 10px;
+  gap: 20px;
 }
 
 .gallery img {
-  width: 200px;
-  height: 250px;
+  width: 150px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
